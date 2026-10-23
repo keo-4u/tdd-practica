@@ -1,6 +1,6 @@
 # Práctica TDD: Construcción de Software (Semana 10)
 
-**Nombre:** Tu nombre completo
+**Nombre:** HUMBERTO ZAMORA MOSOCOSO
 **Curso:** Construcción de Software, Universidad Continental
 
 ## ¿Qué es TDD?
