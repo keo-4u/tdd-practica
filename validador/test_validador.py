@@ -21,4 +21,9 @@ class TestValidarPassword(unittest.TestCase):
     def test_sin_minuscula(self):
         res = validar_password("ABCDEFG1!")
         self.assertFalse(res["valida"])
-        self.assertIn("Al menos una minúscula", res["errores"])    
+        self.assertIn("Al menos una minúscula", res["errores"])  
+
+    def test_sin_digito(self):
+        res = validar_password("Abcdefgh!")
+        self.assertFalse(res["valida"])
+        self.assertIn("Al menos un dígito", res["errores"])
